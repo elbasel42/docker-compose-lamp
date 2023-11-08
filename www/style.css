@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-inline-start: 0.5rem;
+  margin-block: 1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-block-start: 2rem;
+  margin-block-end: 1rem;
+  padding-inline-start: 0.5rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  padding-inline-start: 0.5rem;
+  margin-block: 1rem;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  padding-block: 0.5rem;
+  padding-inline-start: 0.5rem;
+}
+
+p {
+  margin-block: 2rem;
+  padding-inline-start: 0.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+table {
+  margin-inline: auto;
+  display: table;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding-inline: 0.4rem;
+  padding-block: 0.4rem;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+code {
+  font-style: italic;
+  font-size: 0.7rem;
+}
